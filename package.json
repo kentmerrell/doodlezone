@@ -1,0 +1,24 @@
+{
+  "name": "doodlezone",
+  "version": "1.0.0",
+  "description": "All things doodlezone",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/duke83/doodlezone.git"
+  },
+  "author": "",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/duke83/doodlezone/issues"
+  },
+  "homepage": "https://github.com/duke83/doodlezone#readme",
+  "devDependencies": {
+    "aws-sdk": "^2.2.35",
+    "jasmine": "^2.4.1",
+    "typescript": "^1.7.5"
+  }
+}
