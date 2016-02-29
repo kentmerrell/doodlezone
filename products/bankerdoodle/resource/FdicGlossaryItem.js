@@ -1,13 +1,11 @@
 'use strict';
 var FdicSdiVarName_1 = require('./FdicSdiVarName');
-//
-//export class FdicGlossaryItem {
-//    varName:string;
-//
-//    constructor(varName:FdicSdiVarName) {
-//        //this.varName=varName.toString();
-//    }
-//}
+class FdicGlossaryItem {
+    constructor(varName) {
+        this.varName = varName.toString();
+    }
+}
+exports.FdicGlossaryItem = FdicGlossaryItem;
 var vn = FdicSdiVarName_1.FdicSdiVarName.eq;
 console.log(vn);
 //var gi = new FdicGlossaryItem(FdicSdiVarName.) 

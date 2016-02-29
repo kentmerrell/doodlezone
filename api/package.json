@@ -1,0 +1,14 @@
+{
+  "name": "doodlezone-api",
+  "version": "1.0.0",
+  "description": "interface to  database for doodlezone apps",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
+}
